@@ -27,7 +27,7 @@ def draw_meshgrid():
     return XX, YY, input_array
 
 
-plt.style.use('fivethirtyeight')
+
 
 st.sidebar.markdown("# Logistic Regression Classifier")
 
@@ -81,3 +81,6 @@ if st.sidebar.button('Run Algorithm'):
     plt.ylabel("Col2")
     orig = st.pyplot(fig)
     st.subheader("Accuracy for Decision Tree  " + str(round(accuracy_score(y_test, y_pred), 2)))
+
+
+
